@@ -1,0 +1,29 @@
+=begin pod
+
+=head1 A proposed article for CodeProject.com
+
+=begin item
+A descriptive title
+
+Raku, Perl on Steroids
+=end item
+
+=begin item
+A 1-line description
+
+A quick look at a 100-year language
+=end item
+
+=begin item
+Tags
+=end item
+
+
+=begin item
+A concise 1-paragraph abstract
+
+Showing the power of one of the many built-in
+objects in the Raku programming system.
+=end item
+
+=end pod
