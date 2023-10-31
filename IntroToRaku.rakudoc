@@ -14,7 +14,61 @@ useful, the problem it solves, etc.]
 article that may be useful such as an
 introduction to the basic ideas presented?]
 
+I am a long-time, journey-man programmer.
+I first learned FORTRAN IV as a first-semester
+freshman in 1961. I immediately loved computer
+programming, even though the write, run, debug
+cycle was really long until we got access later to
+using the IBM punch card machines ourselves! Then,
+with some effort, we could get throughput in
+less than a day. Evening and nights were great
+because the mainframe was manned 24/7, so
+it was almost like having one's own computer.
+
+Much later in life, in 1988 after a 22-year career as
+a USAF fighter pilot, I got a job as an analyst 
+with a DoD contractor where I was able to use
+my FORTRAN programming skills to good use.
+Unfortunately, I failed to look into Perl when
+it was first introduced in late 1987 and I heard
+about it in mid-1988 from an intern at the main-frame help
+desk on Eglin AFB, Florida.
+ 
+Later, I was introduced to Perl 4 which was a God-send
+because of its wonderful string-handling ability
+and also its capability as a glue-language to
+ease running other executables like shell and 
+compiled FORTRAN programs. With Perl I could write
+a program to run a series of a FORTRAN program on a government
+super computer as batch job iterating over 180-plus
+input sets which took days to complete and generated
+multi-Mb data sets for postprocessing. Then separate
+Perl programs converted the data into EPS drawings
+and other artifacts to be included in project final 
+reports.
+
+
 =head1 Using the code
+
+I love many things about Raku, but these really
+are handy,mespecially for two-fingered, non-touch
+typists like me:
+
++ minimal requirement for parentheses
++ kebab-cased identifiers (goodbye underscore,
+I hardly knew you!)
++ consistent sigil use compared to Perl
++ everything is an object
++ ease of class definition
++ introspection
+
+
+
+For this short introduction to Raku, let me
+show two examples of its introspection
+capabilities.
+
+
 
 [A brief description of how to use the article
 or code.]
