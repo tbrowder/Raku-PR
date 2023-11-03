@@ -1,0 +1,9 @@
+A preferred construct is to have a shirtprogram (or script) which calls subrotines and classes defined in modules.
+
+That results in "precompilation" of the code in the module. Several benefits of that are:
+
++ most important is the tremendous increase in speed
++ an additional benefit is the ability
+  to extract certain details of the module
+
+
