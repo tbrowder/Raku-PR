@@ -50,17 +50,35 @@ reports.
 
 =head1 Using the code
 
+First of all, I favor C-style laguages, and Perl and Raku are examples of such.
 I love many things about Raku, but these really
-are handy,mespecially for two-fingered, non-touch
+are handy, especially for two-fingered, non-touch
 typists like me:
 
-+ minimal requirement for parentheses
-+ kebab-cased identifiers (goodbye underscore,
-I hardly knew you!)
-+ consistent sigil use compared to Perl
-+ everything is an object
-+ ease of class definition
-+ introspection
+=item minimal requirement for parentheses
+
+=begin code
+# Perl
+if ($a eq 'ab') { $b = "cd" }
+# Raku
+if $a eq 'ab' { $b = "cd" }
+=end code
+
+=item kebab-cased identifiers (goodbye underscore, I hardly knew ye!)
+=begin code
+my $is-night = True;
+my $a'b = 0;
+=end code
+
+=item consistent sigil use compared to Perl
+
+=item everything is an object
+
+=item ease of class definition
+=begin code 
+=end code
+
+=item introspection
 
 
 
